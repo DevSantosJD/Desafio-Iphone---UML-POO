@@ -2,10 +2,10 @@ package org.example;
 
 public interface NavegadorDeInternet {
 
-    void exibirPagina(String url);
+    void exibirPaginaWeb(String url);
 
     void adicionarNovaAba();
 
-    void atualizarPagina();
+    void atualizarPaginaWeb();
 }
 

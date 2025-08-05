@@ -21,13 +21,13 @@ public class Iphone implements ReprodutorMusical, AparelhoTelefonico, NavegadorD
     }
 
     @Override
-    public void tocar() {
+    public void tocarMusica() {
         System.out.println("Iniciando musica... tocando!");
 
     }
 
     @Override
-    public void pausar() {
+    public void pausarMusica() {
         System.out.println("Musica pausada");
 
     }
@@ -39,7 +39,7 @@ public class Iphone implements ReprodutorMusical, AparelhoTelefonico, NavegadorD
     }
 
     @Override
-    public void exibirPagina(String url) {
+    public void exibirPaginaWeb(String url) {
         System.out.println("Exibindo página: " + url);
 
     }
@@ -51,7 +51,7 @@ public class Iphone implements ReprodutorMusical, AparelhoTelefonico, NavegadorD
     }
 
     @Override
-    public void atualizarPagina() {
+    public void atualizarPaginaWeb() {
         System.out.println("Atualizando página...");
 
     }

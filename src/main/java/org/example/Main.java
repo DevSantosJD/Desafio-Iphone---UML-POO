@@ -6,8 +6,8 @@ public class Main {
         Iphone iphone = new Iphone();
 
         iphone.selecionarMusica("City Haunts - Nothings But Thieves");
-        iphone.tocar();
-        iphone.pausar();
+        iphone.tocarMusica();
+        iphone.pausarMusica();
 
         iphone.efetuarLigacao("70707070");
         iphone.atenderLigacao();

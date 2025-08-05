@@ -1,8 +1,8 @@
 package org.example;
 
 public interface ReprodutorMusical {
-    void tocar();
-    void pausar();
+    void tocarMusica();
+    void pausarMusica();
     void selecionarMusica(String musica);
 }
 

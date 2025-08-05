@@ -1,8 +1,8 @@
 classDiagram
 
 class ReprodutorMusical {
-+tocar()
-+pausar()
++tocarMusica()
++pausarMusica()
 +selecionarMusica(String musica)
 }
 
@@ -13,9 +13,9 @@ class AparelhoTelefonico {
 }
 
 class NavegadorInternet {
-    +exibirPagina(String url)
+    +exibirPaginaWeb(String url)
     +adicionarNovaAba()
-    +atualizarPagina()
+    +atualizarPaginaWeb()
 }
 
 class iPhone {
